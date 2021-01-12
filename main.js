@@ -3,9 +3,9 @@
 // utilizzo hide sul selettore approrpiato in questo caso una x (close) al secondo click per togliere la lista ( non farla vedere)
 
 $('.fas fa-bars').click(function() {
-  $('.hamburger-menu>ul>li').show("slow");
+  $('.hamburger-menu ul li').show("slow");
 })
 
 $('.close').click(function() {
-  $('.hamburger-menu>ul>li').hide("fast");
+  $('.hamburger-menu ul li').hide("fast");
 })
