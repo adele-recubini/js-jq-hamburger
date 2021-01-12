@@ -1,11 +1,11 @@
 // voglio che la classe hamburger menu al mio click faccia apparire la li lista degli ul
-// utilizzo show al primo click per vedere la lista
-// utilizzo hide al secondo click per togliere la lista ( non farla vedere)
+// utilizzo show  sul selettore  appropiatoal primo click per vedere la lista
+// utilizzo hide sul selettore approrpiato in questo caso una x (close) al secondo click per togliere la lista ( non farla vedere)
 
 $('.fas fa-bars').click(function() {
-  $('.header-right ').show();
+  $('.hamburger-menu').show("slow");
 })
 
-$('.fas fa-bars').click(function() {
-  $('.header-right ').hide();
+$('.close').click(function() {
+  $('.hamburger-menu').hide("fast");
 })
